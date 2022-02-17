@@ -1,3 +1,5 @@
+# First code for retriving data from pubmed, see PubMedAPI.py for updated code using requests
+
 import requests 
 import bs4 
 import time 

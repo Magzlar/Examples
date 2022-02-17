@@ -34,4 +34,4 @@ for article in articleList:
 articlesPD = pd.DataFrame.from_dict(articleInfo)
 df = pd.DataFrame(articlesPD)
 
-df.to_csv (r'C:\Users\stxrm19\Documents\RIC lab_name scraper\CBDStrokeDataMeta1.csv', index = None)
+df.to_csv (r'C:\Users\USERNAME\Documents\RIC lab_name scraper\CBDStrokeDataMeta1.csv', index = None)

@@ -1,3 +1,6 @@
+# Calculate the amount of radioactivity left in a sample following decay overtime
+# Require three variables; Time Passed, Current activity of radioisotope and Half Life of the Radioisotope. 
+
 import math
 
 e = 0.5

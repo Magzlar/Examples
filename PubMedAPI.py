@@ -1,3 +1,5 @@
+# Pull information from publications in PubMed database using API e.g. request abstracts and results section from publications that meet certain search criteria i.e Cannabidiol in pain 
+
 from pymed import PubMed
 import pandas as pd 
 

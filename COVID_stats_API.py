@@ -1,3 +1,5 @@
+# Allows for requesting of covid data from GOV UK website using API 
+
 from requests import get
 import requests
 from json import dumps

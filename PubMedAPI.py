@@ -13,8 +13,8 @@ articleList = []
 articleInfo = []
 
 for article in results:
-# Print the type of object we've found (can be either PubMedBookArticle or PubMedArticle).
-# We need to convert it to dictionary with available function
+# Print the type of object 
+# convert to a dictionary to use index features 
     articleDict = article.toDict()
     articleList.append(articleDict)
 

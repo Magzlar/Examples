@@ -4,9 +4,9 @@ from pymed import PubMed
 import pandas as pd 
 
 
-pubmed = PubMed(tool="PubMedSearcher", email="myemail@ccc.com")
+pubmed = PubMed(tool="PubMedSearcher", email="example@example.co.uk")
 
-## PUT YOUR SEARCH TERM HERE ##
+# place search term in search_term variable
 search_term = "cannabidiol in stroke"
 results = pubmed.query(search_term, max_results=1000)
 articleList = []
@@ -30,8 +30,10 @@ for article in articleList:
                        'publication_date':article['publication_date'], 
                        'authors':article['authors']})
 
-# Generate Pandas DataFrame from list of dictionaries
+# Generate pd data frame to access and manipulate data 
 articlesPD = pd.DataFrame.from_dict(articleInfo)
 df = pd.DataFrame(articlesPD)
+
+#convert to excel file to use within other programmes
 
 df.to_csv (r'C:\Users\USERNAME\Documents\RIC lab_name scraper\CBDStrokeDataMeta1.csv', index = None)

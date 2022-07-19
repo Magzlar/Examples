@@ -1,3 +1,4 @@
+# search current FSA database for cannabinoid based novel food applications and gain insights into by filtering
 import csv
 from os import remove
 import string 

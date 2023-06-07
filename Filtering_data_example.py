@@ -29,6 +29,6 @@ def filter_duplicates_excel(file_path, sheet_name, sheet2_name, output_file_path
 file_path = "C:/Users/"
 sheet_name = "sheet1"
 sheet2_name = "rows_2_remove"
-output_file_path = "C:/Users/filtered_data.xls"
+output_file_path = "C:/Users/filtered_data.xlsx"
 
 filter_duplicates_excel(file_path, sheet_name, sheet2_name, output_file_path)

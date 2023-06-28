@@ -12,5 +12,4 @@
 <li>Dash</li>
 <li>Regex</li></ul>
 
-<h3>Object orientated programming</h3>
-dwd
+<h3>Object Oriented Programming</h3>

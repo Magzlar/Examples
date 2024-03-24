@@ -3,7 +3,7 @@ from math import log, e
 
 
 class RadioactiveDecayCalculator:
-    '''Contains the logic for GUI, enter 3 parameters the class returns the 3rd'''
+    '''Contains the logic for GUI, enter 3 parameters the class returns the 4th'''
     def __init__(self, initial_amount: float = 0, remaining_amount: float = 0, time_passed: float = 0, half_life: float = 0):
         if sum(arg != 0 for arg in (initial_amount, remaining_amount, time_passed, half_life)) < 3:
             raise ValueError("At least three parameters must be provided to make an instance of the class")
